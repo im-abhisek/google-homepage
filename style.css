@@ -21,11 +21,31 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
   padding: 16px;
 }
 
 .nav a {
   padding-left: 16px;
+}
+
+#profile {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  border-radius: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ea4335 #4285f4 #34a853 #fbbc05;
+}
+
+.material-icons {
+  border-radius: 100%;
+  padding: 8px;
+}
+
+.material-icons:hover {
+  background-color: #f4f4f4;
 }
 
 .logo {
