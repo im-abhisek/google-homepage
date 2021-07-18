@@ -53,11 +53,12 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin-top: 120px;
+  margin-bottom: 24px;
 }
 
 .content {
   margin: 0 auto;
-  width: 400px;
+  width: 480px;
 }
 
 .inputbtn {
@@ -69,12 +70,32 @@ a:hover {
 .submitquery {
   margin: 0 4px;
   padding: 8px 16px;
-  border: none;
+  border: solid 1px #cacaca00;
   border-radius: 4px;
 }
 
+.submitquery:hover {
+  cursor: pointer;
+  border: solid 1px #cacaca;
+  box-shadow: 0px 2px 2px #2b272720;
+}
+
 #searchbar {
-  width: 400px;
+  width: 480px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 32px;
+  border-color: #cacaca;
+}
+
+#searchbar:hover {
+  box-shadow: 0px 2px 4px #2b272730;
+}
+
+#searchbar:focus {
+  outline: none;
 }
 
 .footer {
